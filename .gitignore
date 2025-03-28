@@ -1,0 +1,31 @@
+# Ignore virtual environments and libs
+lib/
+lib64/
+bin/
+include/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.whl
+
+# Ignore model and output files
+*.gguf
+*.ckpt
+*.pt
+*.onnx
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+
+# Ignore app outputs
+cleaned_panels/
+output_panels/
+data/
+*.log
+*.zip
+
